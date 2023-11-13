@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.robotdreams.moveobject": {
+      "version": "https://github.com/ugurcanaksak/moveObject.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b91dfb4cdeb808cac46f417244f48afd5fd19f22"
+    },
     "com.unity.collab-proxy": {
       "version": "2.2.0",
       "depth": 0,
@@ -65,6 +72,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "4.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.settings-manager": {
@@ -134,12 +150,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unityexample.com.unityexample.moveobject": {
-      "version": "file:C:/Users/Uğurcan/Desktop/MoveObject",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
